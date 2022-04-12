@@ -39,7 +39,7 @@ public class DetailActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                billingProcessor.subscribe(DetailActivity.this,"acup");
+                billingProcessor.purchase(DetailActivity.this,"acup");
 
             }
         });
